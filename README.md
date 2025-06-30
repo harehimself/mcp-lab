@@ -21,27 +21,31 @@
 ---
 
 ## Table of Contents
-- [🔧 MCP Lab](#-mcp-lab)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Quick Start](#quick-start)
-  - [Project Structure](#project-structure)
-  - [Example Servers](#example-servers)
-  - [Benefits](#benefits)
-  - [How It Compares](#how-it-compares)
-  - [License](#license)
+   - [MCP Lab](#mcp-lab)
+   - [Features](#features)
+   - [Installation](#installation)
+   - [Quick Start](#quick-start)
+   - [Project Structure](#project-structure)
+   - [Example Servers](#example-servers)
+   - [Benefits](#benefits)
+   - [How It Compares](#how-it-compares)
+   - [License](#license)
 
-# 🔧 MCP Lab
+## MCP Lab
 A development environment for building and testing custom MCP (Multi-Component Protocol) servers that integrate seamlessly with AI tooling and VS Code-compatible environments.
 
+<br>
+
 ## Features
-- ✅ Custom MCP server development framework
-- 🔄 VS Code and Claude Desktop integration
-- 🧠 Structured agent pipeline architecture
-- 🎯 Prompt design and sampling control
-- 🛠️ Tool orchestration and debugging
-- 📝 Example agents for rapid iteration
-- 🔧 Modular AI workflow components
+- Custom MCP server development framework
+- VS Code and Claude Desktop integration
+- Structured agent pipeline architecture
+- Prompt design and sampling control
+- Tool orchestration and debugging
+- Example agents for rapid iteration
+- Modular AI workflow components
+
+<br>
 
 ## Installation
 1. Clone the repository:
@@ -60,6 +64,8 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env with your API keys and settings
 ```
+
+<br>
 
 ## Quick Start
 1. Start a basic MCP server:
@@ -84,6 +90,8 @@ python tests/test_server.py
 }
 ```
 
+<br>
+
 ## Project Structure
 - `src/servers/`: MCP server implementations
 - `src/tools/`: Custom tool definitions
@@ -91,6 +99,8 @@ python tests/test_server.py
 - `src/utils/`: Utility functions and helpers
 - `tests/`: Testing framework and examples
 - `examples/`: Sample workflows and integrations
+
+<br>
 
 ## Example Servers
 The lab includes several pre-built servers:
@@ -101,6 +111,8 @@ The lab includes several pre-built servers:
 - **Data Processing**: Text and data transformation utilities
 - **Code Analysis**: Code parsing and analysis tools
 
+<br>
+
 ## Benefits
 - Accelerates MCP server development with proven patterns
 - Provides structured approach to agent pipeline creation
@@ -108,12 +120,16 @@ The lab includes several pre-built servers:
 - Offers reusable components for common AI tasks
 - Simplifies integration with existing development environments
 
+<br>
+
 ## How It Compares
 - Purpose-built for solo developers creating agent infrastructure
 - Focuses on modularity and rapid iteration over enterprise features
 - Lightweight alternative to complex agent frameworks
 - Seamless VS Code and Claude Desktop integration
 - Emphasizes debugging and development experience
+
+<br>
 
 ## License
 MIT License © 2025 [HareLabs](https://github.com/harehimself)
